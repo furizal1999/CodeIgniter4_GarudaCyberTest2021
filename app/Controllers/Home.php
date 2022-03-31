@@ -5,23 +5,13 @@ namespace App\Controllers;
 class Home extends BaseController
 {
     public function constract()
-    {
-        // echo "a"; die();
-		//CEK SESSION
-        // sreturn redirect()->route('/');
-        // echo session()->has("login_myproject"); die();
-		// if((session()->has("login_myproject"))==null){
-		// 	return redirect()->route('/');
-        //     echo "bb"; die();
-		// }else{
-		// 	if(strcmp($_SESSION["status_login"], 'Pimpinan')!==0 ){
-		// 		//tidak dibolehkan
-        //         return redirect()->to('/home');
-		// 	}
-        //     echo "c"; die();
-		// }
-        // echo "a"; die();
+    {  
+        if((!isset(session()->login_myproject))){
+            echo '<script>window.location.href = "'.site_url("/").'";</script>';
+		}
+    
 	}
+    
     public function index()
     {
         $this->constract();

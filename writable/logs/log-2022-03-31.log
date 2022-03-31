@@ -492,3 +492,15 @@ CRITICAL - 2022-03-31 12:17:41 --> Call to a member function getRow() on bool
 #4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+ERROR - 2022-03-31 13:47:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-03-31 13:47:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_grafik_tagihan_mahasiswa.php(48): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Grafik_tagihan_mahasiswa.php(39): App\Models\M_grafik_tagihan_mahasiswa->getTotalTagihan(0)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik_tagihan_mahasiswa->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tagihan_mahasiswa))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

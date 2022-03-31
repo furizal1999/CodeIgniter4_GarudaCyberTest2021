@@ -4,10 +4,12 @@ namespace App\Controllers;
 use App\Models\M_login;
 class Login extends BaseController
 {
-    
-
     public function index()
     {
+        if((isset(session()->login_myproject))){
+            echo '<script>window.location.href = "'.site_url("/home").'";</script>';
+		}
+
         echo view('part/header');
         echo view('v_login');
         echo view('part/footer');

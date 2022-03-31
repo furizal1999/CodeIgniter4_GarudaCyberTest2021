@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 31, 2022 at 07:37 PM
+-- Generation Time: Mar 31, 2022 at 08:45 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.7
 
@@ -45,21 +45,21 @@ CREATE TABLE `tb_akun` (
 --
 
 INSERT INTO `tb_akun` (`username`, `nama_lengkap`, `status_login`, `jabatan`, `tempat_lahir`, `tanggal_lahir`, `jenis_kelamin`, `foto`, `password`, `status_akun`) VALUES
-('183510023', 'David Indra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510099', 'Daniel Alves', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510111', 'Muhammad Indra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510121', 'Muhammad Dani', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510123', 'Zali Syaputra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510138', 'Alfa Syaputra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510201', 'Reza Andin', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510222', 'Sofian', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510228', 'Roza Firdaus', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510321', 'Koni Hernandes', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510323', 'Zuladnan', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510432', 'Dendi', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('183510654', 'Novriansyah', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('furizal123', 'Furizal', 'Pimpinan', 'Rektor', 'Pekanbaru', '1976-03-14', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
-('rafi123', 'Rafi', 'Bendahara', 'Bendahara 1', 'Pekanbaru', '1982-03-11', 'Laki-laki', '', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif');
+('183510023', 'David Indra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510099', 'Daniel Alves', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510111', 'Muhammad Indra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510121', 'Muhammad Dani', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510123', 'Zali Syaputra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510138', 'Alfa Syaputra', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510201', 'Reza Andin', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510222', 'Sofian', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510228', 'Roza Firdaus', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510321', 'Koni Hernandes', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510323', 'Zuladnan', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510432', 'Dendi', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('183510654', 'Novriansyah', 'Mahasiswa', 'Mahasiswa', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('furizal123', 'Furizal', 'Pimpinan', 'Rektor', 'Pekanbaru', '1976-03-14', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif'),
+('rafi123', 'Rafi', 'Bendahara', 'Bendahara 1', 'Pekanbaru', '1982-03-11', 'Laki-laki', 'avatar-1.png', '$2y$10$soObm/MUaauRZTXSqUZSYOAy1NXQ2X1EfnAjs8h5xl5m0G5oouzlG', 'Aktif');
 
 -- --------------------------------------------------------
 
