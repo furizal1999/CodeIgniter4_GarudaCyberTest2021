@@ -1,0 +1,494 @@
+CRITICAL - 2022-03-31 01:09:03 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(27): view('bendahara/v_tag...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 02:48:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(44): CodeIgniter\Model->__call('getDataTagihanS...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 02:49:20 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(44): CodeIgniter\Model->__call('getDataTagihanS...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 02:49:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(44): CodeIgniter\Model->__call('getDataTagihanS...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 04:31:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 04:31:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(44): App\Models\M_tagihan_mahasiswa->getDataTagihan('6')
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 04:31:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 04:31:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_saya.php(23): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 04:32:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 04:32:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_saya.php(23): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 04:34:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 04:34:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_saya.php(23): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 04:35:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 04:35:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_saya.php(23): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 04:36:09 --> Unknown column 'tb_tagihan.username' in 'where clause'
+CRITICAL - 2022-03-31 04:36:09 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 04:36:11 --> Unknown column 'tb_tagihan.username' in 'where clause'
+CRITICAL - 2022-03-31 04:36:11 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 04:36:16 --> Unknown column 'tb_tagihan.username' in 'where clause'
+CRITICAL - 2022-03-31 04:36:16 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 04:45:35 --> Unknown column 'tb_tahun.ajaran.tahun_ajaran' in 'order clause'
+CRITICAL - 2022-03-31 04:45:35 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 04:45:52 --> Unknown column 'tb_tahun_ajaran.ajaran.tahun_ajaran' in 'order clause'
+CRITICAL - 2022-03-31 04:45:52 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(28): App\Models\M_tagihan_saya->getDataTagihanSaya('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:05:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\myTest_Project\app\Views\mahasiswa\v_tagihan_saya.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mahasiswa/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(31): view('mahasiswa/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-31 05:42:59 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tagihan_saya')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tagihan_saya')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:43:18 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:44:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:45:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:45:49 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:46:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi('Array')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:48:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi('Array')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 05:48:23 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:50:10 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:51:05 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:51:15 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:52:00 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:52:10 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 05:52:49 --> Too few arguments to function App\Controllers\Tagihan_saya::transaksi(), 0 passed in C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 06:15:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_saya.php(34): CodeIgniter\Model->__call('getJumlahTagiha...', Array)
+#3 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(44): App\Models\M_tagihan_saya->transaksi('9, 4, 10', '2')
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->transaksi()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-31 10:15:08 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Model->__call('getHistoriTrans...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 10:16:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Model->__call('getHistoriTrans...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 10:17:06 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Model->__call('getHistoriTrans...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 10:25:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): CodeIgniter\Model->__call('getHistoriTrans...', Array)
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-31 10:26:31 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:26:31 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:26:33 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:26:33 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:27:32 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:27:32 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:27:40 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:27:40 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:28:58 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:28:58 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:29:20 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:29:20 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:29:43 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:29:43 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:30:32 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:30:32 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 10:30:34 --> Unknown column 'a.id_tagihan' in 'field list'
+CRITICAL - 2022-03-31 10:30:34 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 11:17:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 11:17:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\myTest_Project\app\Models\M_tagihan_saya.php(45): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_saya.php(40): App\Models\M_tagihan_saya->getHistoriTransaksi('183510228')
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_saya->histori_transaksi()
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_saya))
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-31 11:52:52 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:53:29 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:53:31 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:54:18 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:54:19 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:54:44 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:54:45 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-31 11:54:46 --> Cannot declare class App\Controllers\Tagihan_mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-31 11:55:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_semester.id_semester='0'' at line 16
+CRITICAL - 2022-03-31 11:55:53 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Grafik_tagihan_mahasiswa.php(40): App\Models\M_grafik_tagihan_mahasiswa->getTotalTransaksi(0)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik_tagihan_mahasiswa->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tagihan_mahasiswa))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 11:56:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_semester.id_semester='0'' at line 16
+CRITICAL - 2022-03-31 11:56:10 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Grafik_tagihan_mahasiswa.php(39): App\Models\M_grafik_tagihan_mahasiswa->getTotalTransaksi(0)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik_tagihan_mahasiswa->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tagihan_mahasiswa))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 11:56:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_semester.id_semester='0'' at line 16
+CRITICAL - 2022-03-31 11:56:15 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Grafik_tagihan_mahasiswa.php(39): App\Models\M_grafik_tagihan_mahasiswa->getTotalTransaksi(0)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik_tagihan_mahasiswa->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tagihan_mahasiswa))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 11:56:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_semester.id_semester='0'' at line 16
+CRITICAL - 2022-03-31 11:56:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Grafik_tagihan_mahasiswa.php(39): App\Models\M_grafik_tagihan_mahasiswa->getTotalTransaksi(0)
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik_tagihan_mahasiswa->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tagihan_mahasiswa))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 12:14:35 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('grafik_tagihan_...')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('grafik_tagihan_...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 12:17:41 --> Unknown column 'jumlah_transaksi' in 'field list'
+CRITICAL - 2022-03-31 12:17:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Controllers\Grafik_tagihan_mahasiswa.php(39): App\Models\M_grafik_tagihan_mahasiswa->getTotalTagihan('6')
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Grafik_tagihan_mahasiswa->index()
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tagihan_mahasiswa))
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

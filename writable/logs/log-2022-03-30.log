@@ -1,0 +1,175 @@
+CRITICAL - 2022-03-30 07:29:09 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:29:11 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:30:28 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:31:05 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:31:07 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:31:07 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:32:04 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:32:05 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:32:20 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:32:22 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 07:32:22 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-30 13:38:39 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:38:39 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:39:14 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:39:14 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:39:16 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:39:16 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:39:18 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:39:18 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:39:19 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:39:19 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:39:21 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:39:21 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:39:23 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:39:23 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:40:54 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:40:54 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(12): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:41:24 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:41:24 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(16): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 13:41:26 --> Unknown column 'tb_id_semester.id_semester' in 'order clause'
+CRITICAL - 2022-03-30 13:41:26 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\myTest_Project\app\Views\bendahara\v_tagihan_mahasiswa.php(16): App\Models\M_tagihan_mahasiswa->getComboboxSemester()
+#1 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bendahara/v_tag...', Array, true)
+#4 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(15): view('bendahara/v_tag...', Array)
+#5 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->index()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#7 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 14:24:26 --> Cannot redeclare App\Models\M_tagihan_mahasiswa::getComboboxSemester()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 14:41:52 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\myTest_Project\app\Controllers\Tagihan_mahasiswa.php(44): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tagihan_mahasiswa->tambah_tagihan()
+#3 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tagihan_mahasiswa))
+#4 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myTest_Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myTest_Project\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
